@@ -1,0 +1,100 @@
+### ReadMe Template for the Cypress Automation Project
+
+# TutorialsNinja Gift Certificates Automation
+
+## Project Overview
+This project automates the process of purchasing products and gift certificates on the TutorialsNinja demo website using Cypress. The script follows the Page Object Model (POM) to organize page interactions and uses properties files for configurable values such as the website URL.
+
+## Tools and Technologies Used
+- *Programming Language*: JavaScript
+- *Automation Framework*: Cypress
+- *IDE/Text Editor*: VSCode
+- *Browser*: Chrome (default: Electron)
+- *Version Control*: Git & GitHub
+
+## Project Structure
+
+├── cypress/
+│   ├── fixtures/
+│   ├── integration/
+│   │   ├── giftCertificate.spec.js
+│   ├── plugins/
+│   ├── support/
+│   │   ├── pageObjects/
+│   │   │   ├── HomePage.js
+│   │   │   ├── ProductPage.js
+│   │   │   ├── CheckoutPage.js
+│   │   │   ├── GiftCertificatePage.js
+├── cypress.json
+├── README.md
+├── package.json
+
+
+### Key Folders and Files:
+- *cypress/integration/*: Contains test files like giftCertificate.spec.js.
+- *cypress/support/pageObjects/*: Contains page object files such as HomePage.js, ProductPage.js, and GiftCertificatePage.js.
+- *cypress/fixtures/*: Stores test data if needed.
+- *cypress.json*: Cypress configuration file.
+
+## Setup and Installation
+1. Clone the repository:
+   bash
+   git clone https://github.com/your-repo/tutorialsninja-automation.git
+   
+2. Navigate to the project directory:
+   bash
+   cd tutorialsninja-automation
+   
+3. Install Cypress and other dependencies:
+   bash
+   npm install
+   
+4. Open Cypress Test Runner:
+   bash
+   npx cypress open
+   
+
+## Test Execution
+1. Open Cypress from the terminal using the command:
+   bash
+   npx cypress open
+   
+2. Select the test file giftCertificate.spec.js to run the tests.
+
+## Key Features
+- *Login and Purchase Automation*: Automates the process of searching for products, adding them to the cart, checking out, and completing an order.
+- *Gift Certificate Purchase*: Validates and automates the purchase of gift certificates.
+- *Assertions*: Includes assertions to ensure the page behaves as expected (e.g., validating the success message on placing an order).
+- *Page Object Model*: Implements POM for clean and modular code.
+
+## Key Steps in the Script
+1. *Login and Search Product*:
+   - Enter product name in the search box and click on the search icon.
+   - Add the product to the cart.
+2. *Checkout Process*:
+   - Navigate to the cart and proceed with the checkout process.
+   - Handle multiple "Continue" button clicks and accept terms and conditions.
+3. *Gift Certificate Purchase*:
+   - Fill out required details (Recipient's name, email, etc.).
+   - Submit the form and complete the checkout process.
+   
+## Assertions
+- Validate success messages for both product purchase and gift certificate purchase.
+- Check that the cart updates correctly after adding products.
+
+## Screenshots
+- Screenshots are taken after important steps (e.g., order confirmation, error messages).
+
+## Error Handling
+- *Waits*: Explicit waits are used to handle loading times and ensure elements are interactable.
+- *Assertions*: Verifies conditions like successful order placement and gift certificate purchase.
+
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a new branch for your feature:
+
+   git checkout -b feature-branch
+3. Commit your changes and push to GitHub:
+   git push origin feature-branch
+   ```
+4. Open a pull request.
