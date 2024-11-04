@@ -1,9 +1,45 @@
-Hi, there i'm Sanika Hole I'm a passionate SDET/QA Engineer specializing in test automation with tools like Cypress and 
-selenium and solid foundation in javaScript and java My focuse is on ensuring quality through robust test suites and best practices in software testing,
+This project focuses on testing the Order Information functionality of the TutorialsNinja demo e-commerce website. The testing process is divided into three main areas: Functional Testing, Usability Testing, and Bug Reporting.
 
-Technologies & Tools Language: JavaScript, java, python Testing Tools: Cypress, selenium, mocha, chai Frameworks: Node.js,TestNG, jmeter Version Control Git, GitHub IDE: VSCode, Intellij IDEA GitHub Stats
+1. Functional Testing
+This section includes a series of test cases designed to validate the core functionalities of the website. Each test case outlines:
 
-Featured Project Inventory Management System: Node.js-bassed app for inventory operations, demonstrating modular ES6 syntax and JavaScript classes. Shopping Cart Testing - TutorialsNinja: Cypress automation project for e-commerce testing focused on user experience and functionality Verification 
-Currently Learning I'm diving deeper into API testing and expploring CI/CD integrations to automate futher and streamline testing process
+Test Case ID: A unique identifier for each test.
+Test Scenario: A brief description of what is being tested.
+Test Case: Detailed description of the functionality being tested.
+Pre-requisite: Conditions that must be met before executing the test.
+Test Steps: Step-by-step instructions for conducting the test.
+Test Data: Any specific data needed for testing.
+Expected Result: The anticipated outcome of the test.
+Actual Result: The observed outcome after testing.
+Status: Pass/Fail status of the test.
+Comments: Additional notes or observations from the test.
+2. Usability Testing
+This section focuses on evaluating the user experience and ease of use of the website. It contains:
 
-How to Reach me Linkedin:www.linkedin.com/in/sanika-hole
+Test Case ID: A unique identifier for usability tests.
+Test Scenario: Descriptions of various user interactions.
+Test Case: Details regarding what aspect of usability is being tested.
+Pre-requisite: Conditions required for the usability tests.
+Test Steps: Instructions for usability testing procedures.
+Test Data: Information necessary for conducting the tests.
+Expected Result: What the ideal user experience should be.
+Actual Result: The actual user experience recorded.
+Status: Pass/Fail status of the usability tests.
+Comments: Observations regarding usability.
+3. Bug Report
+This section documents any bugs encountered during testing. It includes:
+
+Project Name: The project being tested.
+Client Name: The client for whom the testing is being conducted.
+URL: The link to the application being tested.
+Other relevant information as needed for identifying and tracking bugs.
+Purpose
+The purpose of this project is to ensure that the Order Information functionality of the TutorialsNinja website works correctly and is user-friendly, while also documenting any issues that arise during the testing process.
+
+If you need more specific information or additional details on any section, let me know! ​​
+
+
+I prefer this response
+
+
+
